@@ -74,5 +74,10 @@ int main()
 	}
 	std::cout << std::endl << "Summ of circle radiuses: " << summ << std::endl;
 
+	for (size_t i = 0; i < containerSize; i++)
+	{
+		delete curves[i];
+	}
+
 	return 0;
 }
